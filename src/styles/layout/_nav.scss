@@ -1,0 +1,58 @@
+.main_nav {
+  &_ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    margin-top: -50px;
+    font-family: $font-hand;
+    font-weight: 700;
+    font-size: 26px;
+    &_plan {
+      background-color: palegoldenrod;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 50px;
+      border-radius: 10px 10px 0 0;
+      cursor: pointer;
+      box-shadow: 0 1px 6px 0 black;
+    }
+    &_flight {
+      background-color: paleturquoise;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 50px;
+      border-radius: 10px 10px 0 0;
+      box-shadow: 0 1px 6px 0 black;
+      cursor: pointer;
+    }
+    &_cities {
+      background-color: pink;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 50px;
+      border-radius: 10px 10px 0 0;
+      box-shadow: 0 1px 6px 0 black;
+      cursor: pointer;
+    }
+    &_transport {
+      background-color: palegreen;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 50px;
+      border-radius: 10px 10px 0 0;
+      box-shadow: 0 1px 6px 0 black;
+      cursor: pointer;
+    }
+  }
+}
+.collapsed {
+  display: none;
+}

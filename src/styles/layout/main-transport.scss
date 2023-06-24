@@ -1,0 +1,18 @@
+.transport {
+    background-color: palegreen;
+    padding: 25px 40px;
+    font-family: $font-hand;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 4px 4px 4px 0px rgba(0,0,0,0.6);
+    &_title {
+      font-size: 40px;
+    }
+    &_desc {
+      font-size: 20px;
+    }
+  }
+  
+  .collapsed {
+    display: none;
+  }
+  

@@ -1,0 +1,36 @@
+.flights {
+  background-color: paleturquoise;
+  padding: 25px 40px;
+  font-family: $font-input;
+  border-radius: 0 0 10px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  box-shadow: 4px 4px 4px 0px rgba(0,0,0,0.6);
+  &_title {
+    font-family: $font-hand;
+    font-size: 40px;
+  }
+  &_desc {
+    font-size: 16px;
+  }
+  &_btn {
+    cursor: pointer;
+    font-size: 30px;
+    font-family: $font-hand;
+    font-weight: 700;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    width: 60%;
+    margin: auto;
+    box-shadow: 0 1px 6px 0 grey;
+  }
+}
+
+.calendar-img {
+ width: 359px;
+}
+
+.collapsed {
+  display: none;
+}
