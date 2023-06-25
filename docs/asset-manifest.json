@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "./static/css/main.4b4d4a41.css",
+    "main.js": "./static/js/main.c4e87556.js",
+    "static/media/bg.jpg": "./static/media/bg.15dc255099186b0991fd.jpg",
+    "static/media/kyoto.jpg": "./static/media/kyoto.4ea759129bb3f90ed2e4.jpg",
+    "static/media/header.jpg": "./static/media/header.33e9ab01ae09e4289f96.jpg",
+    "static/media/osaka.jpg": "./static/media/osaka.deff0239b4a90ef24cfc.jpg",
+    "static/media/tokyo.jpg": "./static/media/tokyo.31242baba3b62783e1ae.jpg",
+    "static/media/nara.jpg": "./static/media/nara.eff844c8bbe9bda76d28.jpg",
+    "index.html": "./index.html",
+    "main.4b4d4a41.css.map": "./static/css/main.4b4d4a41.css.map",
+    "main.c4e87556.js.map": "./static/js/main.c4e87556.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4b4d4a41.css",
+    "static/js/main.c4e87556.js"
+  ]
+}
