@@ -402,12 +402,12 @@ const App = () => {
           {/*PAGE - CITIES*/}
           <div className={isClickedCity}>
             <section className='cities'>
-              <div className='cities_banner'>
-                <div className='cities_banner_tokyo'>Tokyo</div>
-                <div className='cities_banner_osaka'>Osaka</div>
-                <div className='cities_banner_kyoto'>Kyoto</div>
-                <div className='cities_banner_nara'>Nara</div>
-              </div>
+              <ul className='cities_banner'>
+                <li className='cities_banner_tokyo'>Tokyo</li>
+                <li className='cities_banner_osaka'>Osaka</li>
+                <li className='cities_banner_kyoto'>Kyoto</li>
+                <li className='cities_banner_nara'>Nara</li>
+              </ul>
             </section>
           </div>
 
@@ -415,12 +415,25 @@ const App = () => {
           <div className={isClickedTrans}>
             <section className='transport'>
               <h1 className='transport_title'>Transporte</h1>
-              <p className='transport_desc'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
-                magni provident minus commodi reprehenderit, autem odio minima
-                aliquam unde natus quisquam ratione nulla eius. Nostrum
-                consectetur minima totam velit! Accusamus.
-              </p>
+              <ul className='transport_desc'>
+                <li>
+                  Vamos a usar esta sección para organizar los viajes entre
+                  ciudades.
+                </li>
+                <li>
+                  La idea es ir poniendo opciones de tren, duraciones de 
+                  los trayectos, precios y links a webs de transportes para
+                  ir teniendo una idea sobre los trayectos, saber qué nos podemos
+                  esperar en cuanto a tiempos y horarios, cómo comprar billetes,
+                  y no vernos sin idea cuando toque viajar dentro de Japón.
+                </li>
+              </ul>
+              <ul className='transport_banner'>
+                <li className='transport_banner-tokyo'>Tokyo ⇆ Osaka</li>
+                <li className='transport_banner-osaka'>Osaka ⇆ Kyoto</li>
+                <li className='transport_banner-kyoto'>Kyoto ⇆ Nara</li>
+                <li className='transport_banner-nara'>Nara ⇆ Osaka</li>
+              </ul>
             </section>
           </div>
         </div>
